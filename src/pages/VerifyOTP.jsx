@@ -46,7 +46,6 @@ function verifyOTP() {
             style={{ textAlign: "center" }}
             verifyOTP={true}
          >
-            <div>hello</div>
             <div>{formatTime(remainingTime)}</div>
             <div className="flex justify-center space-x-4 mt-4">
                {[...Array(6)].map((_, index) => (
